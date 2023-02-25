@@ -1,7 +1,4 @@
-// Declare and export the functions here.
-module.exports.caesarCipher = caesarCipher;
-module.exports.symbolCipher = symbolCipher;
-module.exports.reverseCipher = reverseCipher;
+
 
 // Encryption Functions
 /////////////////////////////////////////////
@@ -64,3 +61,8 @@ const reverseCipher = (sentence) => {
   }
   return words.join(" ");
 };
+
+// Declare and export the functions here.
+module.exports.caesarCipher = caesarCipher;
+module.exports.symbolCipher = symbolCipher;
+module.exports.reverseCipher = reverseCipher;
