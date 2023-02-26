@@ -62,6 +62,7 @@ the encrypted message.
 origina codse
 =================================================================
 
+
 // Import the functions from encryptors.js here.
 
 // Encryption Functions
@@ -129,10 +130,12 @@ const reverseCipher = (sentence) => {
 // User Input / Output Logic
 /////////////////////////////////////////////
 
+
 const encryptionMethod = getEncryptionMethod();
 process.stdin.on("data", (userInput) => {
   displayEncryptedMessage(encryptionMethod, userInput);
 });
+
 
 /* Helper function for determining which cipher method
 the user chose when they ran the program. */
@@ -156,9 +159,11 @@ function getEncryptionMethod() {
     process.exit();
   }
 
+
   process.stdout.write("Enter the message you would like to encrypt...\n> ");
   return encryptionMethod;
 }
+
 
 /* Helper function for displaying the encrypted message to the user. */
 function displayEncryptedMessage(encryptionMethod, userInput) {
