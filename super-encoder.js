@@ -1,14 +1,11 @@
 // Import the encryptors functions here.
 
-
 const encodeMessage = (str) => {
   // Use the encryptor functions here.
-
 }
 
 const decodeMessage = (str) => {
   // Use the encryptor functions here.
-
 }
 
 // User input / output.
