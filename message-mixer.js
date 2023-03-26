@@ -18,7 +18,6 @@ process.stdin.on("data", (userInput) => {
 the user chose when they ran the program. */
 function getEncryptionMethod() {
   let encryptionMethod;
-
   const encryptionType = process.argv[2];
   if (encryptionType === "symbol") {
     encryptionMethod = symbolCipher;
